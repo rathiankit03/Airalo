@@ -17,11 +17,11 @@ This repository contains an automation testing suite for the Airalo using [Playw
 Airalo/
 │
 ├── pageFactory/                # Contains locators and component folders
-│   ├── components/             # Component classes for interacting with the UI for different pages. Each file is dedicated for one page.
+│   ├── components/             # Component classes for interacting with the UI.
 │   │   ├── homePage.component.ts
 │   │   ├── localesimPage.component.ts
 │   │   └── productPage.component.ts
-│   └── locators/               # JSON files with locators for different pages. Each json file is dedicated for one page
+│   └── locators/               # JSON files with locators for different pages. 
 │       ├── homePage.json
 │       ├── localesimPage.json
 │       └── productPage.json
@@ -43,6 +43,7 @@ Airalo/
 ├── package.json                # Project dependencies and scripts
 ├── README.md                   # Project documentation
 └── ...                         # Other configuration files
+```
 
 ## Setup Instructions
 
@@ -60,16 +61,19 @@ Ensure you have the following installed on your system:
    ```bash
    git clone https://github.com/rathiankit03/Airalo.git
    cd Airalo
+   ```
 
 2. ** Install project dependencies: **
 
     ```bash
     npm install
+    ```
 
 3. ** Install Playwright browsers: **
 
     ```bash
     npx playwright install
+    ```
 
 ### Running Tests
 
@@ -77,6 +81,7 @@ Ensure you have the following installed on your system:
 
     ```bash
     npx playwright test
+    ```
 
 2. **To run tests with specific tags:**
 
@@ -86,6 +91,7 @@ Ensure you have the following installed on your system:
 
     ```bash
     npx playwright test --grep @regression
+    ```
 
 ## Test Scenarios
 
