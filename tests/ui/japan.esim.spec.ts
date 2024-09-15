@@ -1,10 +1,10 @@
 import {test, expect} from "@playwright/test";
 import {navigateToHomePage} from '@utils/common/navigationUtils';
-import HomePageComponent from '@pageFactory/components/homepage.component';
-import LocalEsimPageComponent from '@pageFactory/components/localesimpage.component';
-import ProductComponent from '@pageFactory/components/product.component';
+import HomePageComponent from '@pageFactory/components/homePage.component';
+import LocalEsimPageComponent from '@pageFactory/components/localesimPage.component';
+import ProductComponent from '@pageFactory/components/productPage.component';
 
-test('To validate first esim plan of Japan @regression @japan', async ({ page }) => {
+test('To validate first esim plan of Japan @regression @japan @ui', async ({ page }) => {
     const homePageComponent = new HomePageComponent(page);
     const localEsimPageComponent = new LocalEsimPageComponent(page);
     const productComponent = new ProductComponent(page);

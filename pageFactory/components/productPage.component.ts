@@ -1,5 +1,5 @@
 import { Locator, Page } from "@playwright/test";
-import * as selectors from '@locators/product.locator.json'
+import * as selectors from '@locators/productPage.locator.json'
 
 export default class Product {
     
