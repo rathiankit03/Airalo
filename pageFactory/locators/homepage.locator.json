@@ -1,0 +1,10 @@
+{
+    "searchBar" : "search-input",
+    "local-esim-tab-searchbar" :  "scenes.store.local-tab",
+    "cookiePopup": "//*[@id = 'onetrust-group-container']",
+    "acceptButtonOnCookiePopup": "//button[@id = 'onetrust-accept-btn-handler']",
+    "pushNotificationAlert": "//*[@id = 'wzrk_wrapper']",
+    "pushNotificationAlertAllowButton": "//*[@id = 'wzrk-confirm']",
+    "searchSuggetion": "//ul[contains(@class,'countries-list')]",
+    "japanOption": "//li//span[text() = 'Japan']"
+}

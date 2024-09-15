@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@utils/*": ["./utils/*"],
+      "@pageFactory/*": ["./pageFactory/*"],
+      "@components/*": ["./pageFactory/components/*"],
+      "@locators/*": ["./pageFactory/locators/*"],
+      "@apiDetails/*": ["./utils/api/*"]
+    }
+  }
+}
