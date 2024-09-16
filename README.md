@@ -1,6 +1,6 @@
 # Airalo Automation Testing
 
-This repository contains an automation testing suite for the Airalo using [Playwright](https://playwright.dev/). The tests are organized into UI and API categories. The project utilizes the PageFactory design pattern to manage and organize page objects.  
+This repository contains an automation testing suite for the Airalo using [Playwright](https://playwright.dev/) Typescript. The tests are organized into UI and API categories. The project utilizes the PageFactory design pattern to manage and organize page objects.  
 
 ## Table of Contents
 
@@ -67,6 +67,7 @@ Ensure you have the following installed on your system:
 
     ```bash
     npm install
+    npm install -g typescript
     ```
 
 3. ** Install Playwright browsers: **
